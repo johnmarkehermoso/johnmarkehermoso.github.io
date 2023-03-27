@@ -9,7 +9,6 @@
 }
 
 body {
-    background-color: #e2e8f0;
     padding: 20px;
 }
 
@@ -133,31 +132,9 @@ img .rounded-circle{
 #card-img:hover{
   filter: blur(0);
 }
-.page-footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
 #webdes, #webdev, #crede {
   filter:sepia(1) brightness(0.5);
 }
 #webdes:hover, #webdev:hover, #crede:hover{
   filter: grayscale(0);
-}
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .contaner {
-    width: 80%;
-    padding: 0;
-  }
-  .navbar {
-    width: 100%;
-  }
-}
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .container, .navbar {
-    width: 100%;
-  }
 }

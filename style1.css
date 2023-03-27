@@ -33,3 +33,19 @@ body, html {
   #home:focus{
     outline: none;
   }
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .contaner {
+      width: 80%;
+      padding: 0;
+    }
+    .navbar {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .container, .navbar {
+      width: 100%;
+    }
+  }

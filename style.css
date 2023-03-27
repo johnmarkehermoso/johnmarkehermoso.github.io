@@ -145,3 +145,19 @@ img .rounded-circle{
 #webdes:hover, #webdev:hover, #crede:hover{
   filter: grayscale(0);
 }
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}

@@ -147,17 +147,17 @@ img .rounded-circle{
 }
 @media only screen and (max-width:800px) {
   /* For tablets: */
-  .main {
+  .contaner {
     width: 80%;
     padding: 0;
   }
-  .right {
+  .navbar {
     width: 100%;
   }
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .menu, .main, .right {
+  .container, .navbar {
     width: 100%;
   }
 }

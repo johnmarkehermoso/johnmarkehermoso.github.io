@@ -77,7 +77,7 @@ img .rounded-circle{
   }
   #card {
     width: 350px;
-    height: 360px;
+    height: 400px;
     filter:sepia(1) brightness(0.5);
     border-radius: 10px;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
@@ -121,4 +121,18 @@ img .rounded-circle{
 }
 .card-title{
   font-size: 2rem;
+}
+
+.card-title-bottom{
+  color: #b2b2b2;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 3rem;
+}
+.card-subtitle{
+  color: balck;
+  text-shadow: 2px 2px 4px whitesmoke;
+  font-size: 1.5rem;
+}
+#testimonial{
+  padding-top: 20px;
 }

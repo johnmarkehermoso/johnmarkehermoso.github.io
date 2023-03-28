@@ -56,21 +56,7 @@ img .rounded-circle{
     background: rgba(0, 128, 0, 0.6);
     border-radius: 5px;
 }
-.card-title-bottom{
-    color:aliceblue;
-    text-shadow: 2px 2px 4px #000000;
-    font-size: 2rem;
-}
-.card-subtitle{
-  text-shadow: 2px 2px 4px #000000;
-  font-size: 1.5rem;
-}
-.col {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-  }
-  
+
   /* Remove extra left and right margins, due to padding */
   .row {margin: 0 -5px;}
   
@@ -82,23 +68,18 @@ img .rounded-circle{
   }
   
   /* Responsive columns */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 540px) {
     .col {
       width: 100%;
       display: block;
       margin-bottom: 20px;
     }
   }
-  
-  /* Style the counter cards */
-
-  * {
-    box-sizing: border-box;
-  }
-  .card {
-    padding: 10px;
-    margin-right: 10px;
-    border-radius: 4px;
+  #card {
+    width: 350px;
+    height: 360px;
+    filter:sepia(1) brightness(0.5);
+    border-radius: 10px;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
       transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
        cursor: pointer;
@@ -129,12 +110,15 @@ img .rounded-circle{
 #card-img {
   filter:blur(1px) brightness(0.5);
 }
-#card-img:hover{
-  filter: blur(0);
+#card:hover{
+  filter: sepia(0);
 }
 #webdes, #webdev, #crede {
   filter:sepia(1) brightness(0.5);
 }
 #webdes:hover, #webdev:hover, #crede:hover{
   filter: grayscale(0);
+}
+.card-title{
+  font-size: 2rem;
 }

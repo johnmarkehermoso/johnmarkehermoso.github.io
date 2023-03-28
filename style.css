@@ -103,6 +103,13 @@ img .rounded-circle{
   .card-body .btn{
     background-color: rgba(0, 128, 0, 0.6);
   }
+  .card-body .btn{
+    background-color: rgba(0, 128, 0, 0.6);
+  }
+  .card1 {
+    padding: 10px;
+    height: 50px;
+  }
 
 .toggler:hover{
   opacity: 20%;
@@ -135,4 +142,13 @@ img .rounded-circle{
 }
 #testimonial{
   padding-top: 20px;
+}
+#rowintro{
+  padding-top: 20px;
+}
+.card{
+  height: 200px;
+}
+#client1{
+  height: 100px;
 }
